@@ -14,4 +14,4 @@ def imagedown(url, folder):
     soup = BeautifulSoup(r.text, 'html.parser')
     source = soup.find_all('src')
     for source in images:
-        print(source{'media'})
+        print(source['media'])
